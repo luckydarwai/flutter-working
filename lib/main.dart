@@ -27,21 +27,10 @@ class MyState extends State<MyApp> {
     var questions = [
       'what\'s your favorite color?',
       'what\'s your favorite animal?',
+      'what\'s your favorite vehical?',
+      'what\'s your favorite Game?',
     ];
-    // var elements = [
-    //   {
-    //     'questions': 'which is your favorite color',
-    //     'answer': ['red', 'green', 'blue', 'black']
-    //   },
-    //   {
-    //     'questions': 'what\'s your favorite animal',
-    //     'answer': ['Lion', 'Snake', 'Elephant', 'Tiger']
-    //   },
-    //   {
-    //     'questions': 'wh iso\'s your favorite Teacher',
-    //     'answer': ['Karan', 'Jagdeep', 'Naveen', 'Neeraj']
-    //   }
-    // ];
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
